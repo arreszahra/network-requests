@@ -1,0 +1,30 @@
+body {
+    font-family: 'Times New Roman', Times, serif;
+    background-image: url(https://news.stanford.edu/wp-content/uploads/2021/12/ClimateChaos1.jpg);
+    display: flex;
+    justify-content: center;
+    background-size: cover;
+    background-position: center;
+}
+
+.weather {
+    width: 400px;
+    height: 80%;
+    text-align: center;
+    background-image: url(https://news.stanford.edu/wp-content/uploads/2021/12/ClimateChaos1.jpg);
+    background-size: cover;
+    background-position: center;
+    color: rgb(0, 0, 0);
+    position: fixed;
+    border: 5px solid whitesmoke;
+    border-radius: 20px;
+    color: white;
+    transition: box-shadow 0,3s ease;
+    box-shadow: 10 20 50px rgb(226, 14, 14);
+    cursor: pointer;
+    padding: 20px;
+}
+
+.weather:hover {
+    box-shadow: 0 0 70px black;
+}
